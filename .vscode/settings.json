@@ -1,0 +1,12 @@
+{
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,W503"
+    ],
+    "python.sortImports.args": [
+        "-m 3"
+    ],
+    "python.jediEnabled": false
+}
